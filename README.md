@@ -8,7 +8,7 @@ Friend-finder uses Express to handle routing. It is deployed using Heroku so oth
 ### Links to view
 
 * Heroku link to your homework 
-* AND the link to the Github Repository!
+* https://shannonruder.github.io/friend-finder/
 
 ### Instructions
 
