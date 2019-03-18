@@ -1,7 +1,7 @@
 /*optional css for home page*/
 
 body {
-	padding-bottom: 150px;
+	padding-bottom: 110px;
 }
 
 .bottom_nav {
@@ -9,8 +9,8 @@ body {
 }
 
 .vertical_alignment {
-	height: 50px;
-	line-height: 50px;
+	height: 40px;
+	line-height: 40px;
 }
 
 .vertical_alignment p {

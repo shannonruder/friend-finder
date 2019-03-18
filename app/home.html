@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Week 13 - Aquapet Friend Finder</title>
+	<title>Week 13 - Exotic Pet Friend Finder</title>
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Week 13 HW - Pet Friend Finder">
-	<meta name="author" content="Ali Zaidi">
+	<meta name="author" content="Shannon Ruder">
 
 	<!-- add link to the jQuery CDN -->
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -31,7 +31,7 @@
 <body>
 
 	<!-- first a navbar , not used, adds nice visual touch -->
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-dark">
 	</nav>
 
 	<!-- begin the bootstrap container -->
@@ -39,11 +39,12 @@
 		<div class="jumbotron">
 
 			<div class="container-fluid center">
-				<p><h1>Aquapet Friend Finder</h1></p>
-				<p>Answer a few questions then find your perfect pet friend!</p><br>
+                <p><h1>Exotic Pet Friend Finder</h1></p>
+                <p>Find which mysterious and incredibly unusual looking creatures from our blue planet can be kept as cool pets.</p>
+				<p>Take a short survey to find out which one is just right for you!</p><br>
 
 				<!-- button link/href is going to be to /survey as defined in htmlroutes.js -->
-				<a href="/survey" class="btn btn-primary btn-lg active" role="button"><span class="glyphicon glyphicon-list-alt"></span> Take the Survey!</a>
+				<a href="/survey" class="btn btn-info btn-lg active" role="button"><span class="glyphicon glyphicon-list-alt"></span> Click here to Begin</a>
 			</div>
 		<!-- end jumbotron next -->
 		</div>
@@ -67,7 +68,7 @@
 	</div>
 
 	<!-- bottom navbar acting as footer -->
-	<nav class="navbar navbar-default navbar-fixed-bottom">
+	<nav class="navbar navbar-dark navbar-fixed-bottom">
 		<div class="container vertical_alignment">
 		   	<p class="text-center"><a href="/api/friends" target="_blank">API Friends List</a> | <a href="https://github.com/realzaidiguy/Pet-Friend-Finder" target="_blank">GitHub Repo</a></p>
 	    </div>

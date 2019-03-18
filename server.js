@@ -23,10 +23,10 @@ app.use(bodyParser.raw({ type: 'application/vnd.custom-type' }));
 
 // bring in api routes - bring in api routes first because
 // that's where we're getting our data to display in html pages
-require("./app/routing/api_routes.js")(app);
+require("./app/routing/api_Routes.js")(app);
 
 // bring in the html routes
-require("./app/routing/html_routes.js")(app);
+require("./app/routing/html_Routes.js")(app);
 
 // set up the listener
 app.listen(PORT, function() {
