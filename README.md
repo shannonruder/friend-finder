@@ -25,14 +25,9 @@ Friend-finder uses Express to handle routing. It is deployed using Heroku so oth
 
 ### Links to view
 
-* Deployed: https://shielded-retreat-32916.herokuapp.com/
-Githubrepo: https://shannonruder.github.io/friend-finder/
+* Deployed: https://exotic-friend-finder.herokuapp.com/
+* Githubrepo: https://shannonruder.github.io/friend-finder/
 
-### Directions for Heroku deployment
-
-Please see [Heroku’s Account Verification Information](https://devcenter.heroku.com/articles/account-verification) for more details.
-
-See the [Supplemental Heroku Deployment Guide](../../03-Supplemental/HerokuGuide.md) for in-detail deployment instructions.
 
 
 
