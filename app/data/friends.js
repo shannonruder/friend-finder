@@ -21,7 +21,7 @@ var friends = [{
 	"scores":[5, 5, 1, 3, 1, 5, 1, 5, 5, 2]
 }, {
 	"name":"Hyacinth Macaw",
-	"photo":"hhttp://www.wordsiseek.com/wp-content/uploads/2017/10/Hyacinth-Macaw.png",
+	"photo":"http://www.wordsiseek.com/wp-content/uploads/2017/10/Hyacinth-Macaw.png",
 	"scores":[2, 2, 4, 4, 3, 2, 3, 2, 2, 4]
 }, {
 	"name":"Chinchilla",
