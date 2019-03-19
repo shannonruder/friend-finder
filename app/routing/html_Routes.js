@@ -3,6 +3,7 @@ var path = require('path');
 
 // define the routes we will be exporting to the server
 module.exports = function(app) {
+    console.log("hi");
 
 	// the /survey route will take us to survey.html page
 	app.get("/survey", function(req, res) {
