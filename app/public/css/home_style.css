@@ -2,7 +2,7 @@
 
 body {
     padding-bottom: 110px;
-    background-color: rgb(111, 222, 241);
+    background-color: rgb#909d24;
 }
 
 .bottom_nav {
@@ -29,5 +29,5 @@ h1,
 strong {
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
-    background-color: rgb(111, 222, 241);;
+    background-color: #909d24;;
 }

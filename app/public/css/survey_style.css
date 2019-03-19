@@ -1,7 +1,8 @@
 /*optional css for survey page*/
 
 body {
-    padding-bottom: 110px;
+    padding-bottom: 180px;
+    background-color: rgb#909d24;
 }
 
 .bottom_nav {

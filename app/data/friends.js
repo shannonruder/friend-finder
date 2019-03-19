@@ -1,6 +1,6 @@
 // data on the friends
 var friends = [{
-	"name":"Southern Tamandua",
+	"name":"Tamandua",
 	"photo":"http://www.wordsiseek.com/wp-content/uploads/2017/10/Southern-Tamandua.png",
 	"scores":[4, 3, 3, 3, 4, 3, 2, 1, 5, 3]
 }, {
@@ -16,7 +16,7 @@ var friends = [{
 	"photo":"http://www.wordsiseek.com/wp-content/uploads/2017/10/Llama-1.png",
 	"scores":[5, 5, 1, 3, 1, 5, 1, 5, 5, 3]
 }, {
-	"name":"Bearded Dragon Lizard",
+	"name":"Bearded Dragon",
 	"photo":"http://www.wordsiseek.com/wp-content/uploads/2017/10/Bearded-Dragon-Lizard-1.png",
 	"scores":[5, 5, 1, 3, 1, 5, 1, 5, 5, 2]
 }, {
