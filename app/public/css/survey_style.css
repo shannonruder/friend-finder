@@ -2,7 +2,6 @@
 
 body {
     padding-bottom: 100px;
-    background-color: rgb#909d24;
 }
 
 .bottom_nav {
@@ -16,8 +15,9 @@ body {
 
 .vertical_alignment p {
     font-family: 'Ubuntu', sans-serif;
+    color:#909d24;
     font-size: 20px;
 	vertical-align: middle;
-	/*display: inline-block;*/
+	display: inline-block;
 }
 
