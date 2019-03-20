@@ -15,9 +15,18 @@ body {
 
 .vertical_alignment p {
     font-family: 'Ubuntu', sans-serif;
-    color:#909d24;
     font-size: 20px;
 	vertical-align: middle;
 	display: inline-block;
+}
+
+.jumbotron,
+.container-fluid .jumbotron,
+h1,
+strong {
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    
 }
 
