@@ -7,11 +7,9 @@ var path = require('path');
 var app = express();
 
 // set port to 8080 or whatever heroku (deployment site) sets it to
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 3000;
 
-// express middleware needed for serving static files. For more details
-// see here: http://expressjs.com/en/starter/static-files.html
-app.use(express.static('./app/public'));
+
 
 // set up BodyParser to make it possible to interpret data sent to our server
 app.use(bodyParser.json());
@@ -20,6 +18,9 @@ app.use(bodyParser.text({ type: 'text/html' }));
 app.use(bodyParser.json({ type: 'application/*+json' }));
 app.use(bodyParser.raw({ type: 'application/vnd.custom-type' }));
 
+// express middleware needed for serving static files. For more details
+// see here: http://expressjs.com/en/starter/static-files.html
+app.use(express.static('./app/public'));
 
 // bring in api routes - bring in api routes first because
 // that's where we're getting our data to display in html pages
