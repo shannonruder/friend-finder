@@ -33,6 +33,8 @@ Friend-finder uses Express to handle routing. It is deployed using Heroku so oth
 * Deployed: https://exotic-friend-finder.herokuapp.com/
 * Githubrepo: https://shannonruder.github.io/friend-finder/
 
+* View a video walk-through: https://drive.google.com/file/d/14Zz_DDpHN_PS-MCqRIb0EyymorM12LZd/view
+
 
 
 
